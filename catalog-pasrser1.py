@@ -194,7 +194,7 @@ if __name__ == '__main__':
         print("Please add running file to run parser")
         exit(1)
 
-    Parser = Parser('096031', 'larsson1231')
+    Parser = Parser('***', '***')
 
     Parser.get_categories()
     Parser.write_xlsx()
